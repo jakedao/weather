@@ -1,0 +1,18 @@
+@import './color.scss';
+
+.icon-button {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: $btn ;
+
+    &:hover {
+        background-color: $btn-hover;
+        color: white;
+    }
+    
+}
