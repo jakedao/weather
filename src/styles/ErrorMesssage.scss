@@ -1,0 +1,11 @@
+@import "./color.scss";
+
+.error-message {
+    margin: 1rem 0rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border: 1px solod $error-text;
+    color: $error-text;
+    background-color:  $error;
+    border-radius: 5px;
+}

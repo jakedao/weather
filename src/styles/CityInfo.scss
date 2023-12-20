@@ -1,0 +1,23 @@
+@import "./color.scss";
+
+.city-info {
+    margin-top: 1rem;
+    padding: 1rem;
+
+    &__weather-main {
+        display:flex;
+        align-items: center;
+    }
+
+    &__label{
+        display: inline-block;
+        color: $label;
+        font-weight: 600;
+        width: 120px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,13 @@
+@import './styles//color.scss';
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid $border;
+  padding: 2rem;
+}
